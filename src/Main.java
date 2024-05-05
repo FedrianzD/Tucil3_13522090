@@ -14,7 +14,7 @@ public class Main {
         String endword = l.get(1);
         int wordLength = startword.length();
         DictReader.fileToMap("./src/dict/" + wordLength + ".txt");
-//        DictReader.fileToMap("./src/dict/dict3.txt");
+    //    DictReader.fileToMap("./src/dict/dict3.txt");
         
         while(DictReader.englishDictionary == null){
             l = UtilityFunc.readInputStartEnd();
