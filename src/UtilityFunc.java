@@ -25,6 +25,18 @@ class UtilityFunc{
         }
         System.out.println();
     }
+    public static String colorString(String s1, String s2){
+        StringBuilder sb = new StringBuilder("<html>");
+        for (int i = 0; i < s1.length(); i++) {
+            if (s1.charAt(i) == s2.charAt(i)) {
+                sb.append("<font color='green'>").append(s1.charAt(i)).append("</font>");
+            } else {
+                sb.append(s1.charAt(i));
+            }
+        }
+        sb.append("</html>");
+        return sb.toString();
+    }
     public static void printList(List<Node> l){
         String endword = l.get(l.size()-1).getString();
         l.forEach(s -> printString(s.getString(), endword));
