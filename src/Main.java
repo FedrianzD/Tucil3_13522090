@@ -63,6 +63,7 @@ public class Main {
         System.out.println("Waktu yang dibutuhkan: " + duration/1000000 + "ms");
         System.out.println("Before: " + before/(1024*1024) +  "MB");
         System.out.println("After: " + after/(1024*1024) +  "MB");
-        System.out.println("Used memory: " + (after-before)/(1024*1024) + "MB") ;
+        long used = after/(1024*1024) - before/(1024*1024);
+        System.out.println("Used memory: " + used + "MB") ;
     }
 }
