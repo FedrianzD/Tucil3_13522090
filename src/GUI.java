@@ -110,6 +110,11 @@ public class GUI extends JFrame {
                 nodeCheckedTXT.setText(Integer.toString(Node.nodeChecked));
                 nodeExpandedTXT.setText(Integer.toString(Node.nodeExpanded));
                 nodeCreatedTXT.setText(Integer.toString(Node.nodeCreated));
+                endTime = 0;
+                startTime = 0;
+                after = 0;
+                before = 0;
+                Node.resetNode();
 
 
             }
