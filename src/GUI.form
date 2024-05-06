@@ -129,6 +129,7 @@
           </grid>
         </constraints>
         <properties>
+          <editable value="false"/>
           <font name="Arial" size="14" style="1"/>
           <text value=""/>
         </properties>
@@ -140,6 +141,7 @@
           </grid>
         </constraints>
         <properties>
+          <editable value="false"/>
           <font name="Arial" size="14" style="1"/>
         </properties>
       </component>
@@ -150,6 +152,7 @@
           </grid>
         </constraints>
         <properties>
+          <editable value="false"/>
           <font name="Arial" size="14" style="1"/>
         </properties>
       </component>
@@ -184,6 +187,7 @@
           </grid>
         </constraints>
         <properties>
+          <editable value="false"/>
           <font name="Arial" size="14" style="1"/>
         </properties>
       </component>
@@ -194,6 +198,7 @@
           </grid>
         </constraints>
         <properties>
+          <editable value="false"/>
           <font name="Arial" size="14" style="1"/>
         </properties>
       </component>
@@ -204,6 +209,7 @@
           </grid>
         </constraints>
         <properties>
+          <editable value="false"/>
           <font name="Arial" size="14" style="1"/>
         </properties>
       </component>
