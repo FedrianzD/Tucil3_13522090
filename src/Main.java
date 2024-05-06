@@ -63,7 +63,7 @@ public class Main {
             System.out.println("Jumlah langkah solusi: " + (sol.size()-1));
         }
         System.out.println("Node created: " + Node.nodeCreated);
-        System.out.println("Node expanded: " + Node.nodeExpanded);
+        System.out.println("Node visited: " + Node.nodeVisited);
         long duration = (endTime - startTime); 
         System.out.println("Waktu yang dibutuhkan: " + duration/1000000 + "ms");
         System.out.println("Before: " + before/(1024*1024) +  "MB");

@@ -13,7 +13,7 @@ class Node{
     private int hn;
     public Node pred;
     public static int nodeCreated = 0;
-    public static int nodeExpanded = 0;
+    public static int nodeVisited = 0;
     Node(String s, int cost, int hn, Node pred){
         this.w = s;
         this.pred = pred;
@@ -30,7 +30,7 @@ class Node{
     }
     public static void resetNode(){
         nodeCreated = 0;
-        nodeExpanded = 0;
+        nodeVisited = 0;
     }
     public String getString(){
         return w;

@@ -108,7 +108,7 @@ public class GUI extends JFrame {
                 long duration = (endTime - startTime);
                 WaktuTXT.setText(Long.toString(duration/1000000) + "ms");
                 MemoryTXT.setText((after-before)/(1024*1024) + "MB");
-                nodeExpandedTXT.setText(Integer.toString(Node.nodeExpanded));
+                nodeExpandedTXT.setText(Integer.toString(Node.nodeVisited));
                 nodeCreatedTXT.setText(Integer.toString(Node.nodeCreated));
                 endTime = 0;
                 startTime = 0;

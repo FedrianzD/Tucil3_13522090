@@ -29,7 +29,7 @@ public class GBFS {
             Node currNode = pq.poll();
             pq.clear();
             List<String> possibleString;
-            Node.nodeExpanded++;
+            Node.nodeVisited++;
             if(currNode.getString().equals(end)){
                 return currNode.pathToRoot();
             }

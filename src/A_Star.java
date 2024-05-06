@@ -27,7 +27,7 @@ public class A_Star {
         while(!pq.isEmpty()){
             Node currNode = pq.poll();
             List<String> possibleString;
-            Node.nodeExpanded++;
+            Node.nodeVisited++;
             if(currNode.getString().equals(end)){
                 return currNode.pathToRoot();
             }
