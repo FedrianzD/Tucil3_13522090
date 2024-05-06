@@ -27,7 +27,6 @@ public class UCS {
         
         while(!pq.isEmpty()){
             Node currNode = pq.poll();
-            Node.nodeChecked++;
             List<String> possibleString;
             Node.nodeExpanded++;
             if(currNode.getString().equals(end)){

@@ -14,7 +14,6 @@ class Node{
     public Node pred;
     public static int nodeCreated = 0;
     public static int nodeExpanded = 0;
-    public static int nodeChecked= 0;
     Node(String s, int cost, int hn, Node pred){
         this.w = s;
         this.pred = pred;
@@ -32,7 +31,6 @@ class Node{
     public static void resetNode(){
         nodeCreated = 0;
         nodeExpanded = 0;
-        nodeChecked = 0;
     }
     public String getString(){
         return w;

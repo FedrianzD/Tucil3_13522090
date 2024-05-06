@@ -3,7 +3,7 @@
   <grid id="27dc6" binding="MainPanel" layout-manager="GridLayoutManager" row-count="8" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
     <margin top="0" left="0" bottom="0" right="0"/>
     <constraints>
-      <xy x="82" y="40" width="584" height="601"/>
+      <xy x="82" y="40" width="585" height="601"/>
     </constraints>
     <properties>
       <preferredSize width="600" height="464"/>
@@ -164,22 +164,6 @@
           <text value="Node Created"/>
         </properties>
       </component>
-      <component id="9725d" class="javax.swing.JLabel" binding="nodeExpanded">
-        <constraints>
-          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <text value="Node Expanded"/>
-        </properties>
-      </component>
-      <component id="5d35e" class="javax.swing.JLabel" binding="nodeChecked">
-        <constraints>
-          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <text value="Node Checked"/>
-        </properties>
-      </component>
       <component id="7d9e8" class="javax.swing.JTextField" binding="nodeCreatedTXT">
         <constraints>
           <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
@@ -193,7 +177,7 @@
       </component>
       <component id="7a36b" class="javax.swing.JTextField" binding="nodeExpandedTXT">
         <constraints>
-          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+          <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="-1"/>
           </grid>
         </constraints>
@@ -202,15 +186,32 @@
           <font name="Arial" size="14" style="1"/>
         </properties>
       </component>
-      <component id="b2f6d" class="javax.swing.JTextField" binding="nodeCheckedTXT">
+      <component id="9725d" class="javax.swing.JLabel" binding="nodeExpanded">
         <constraints>
-          <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
-          </grid>
+          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <editable value="false"/>
+          <text value="Node Expanded"/>
+        </properties>
+      </component>
+      <component id="ee218" class="javax.swing.JLabel" binding="NIM">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
           <font name="Arial" size="14" style="1"/>
+          <text value="13522090"/>
+        </properties>
+      </component>
+      <component id="da00c" class="javax.swing.JLabel" binding="Name">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial" size="14" style="1"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="Fedrianz Dharma"/>
         </properties>
       </component>
     </children>

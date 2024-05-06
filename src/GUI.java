@@ -25,7 +25,8 @@ public class GUI extends JFrame {
     private JTextField nodeCheckedTXT;
     private JLabel nodeCreated;
     private JLabel nodeExpanded;
-    private JLabel nodeChecked;
+    private JLabel Name;
+    private JLabel NIM;
 
     GUI(){
         setContentPane(MainPanel);
@@ -92,7 +93,6 @@ public class GUI extends JFrame {
                 langkahTXT.setText("");
                 WaktuTXT.setText("");
                 MemoryTXT.setText("");
-                nodeCheckedTXT.setText("");
                 nodeExpandedTXT.setText("");
                 nodeCreatedTXT.setText("");
                 if (sol == null){
@@ -108,7 +108,6 @@ public class GUI extends JFrame {
                 long duration = (endTime - startTime);
                 WaktuTXT.setText(Long.toString(duration/1000000) + "ms");
                 MemoryTXT.setText((after-before)/(1024*1024) + "MB");
-                nodeCheckedTXT.setText(Integer.toString(Node.nodeChecked));
                 nodeExpandedTXT.setText(Integer.toString(Node.nodeExpanded));
                 nodeCreatedTXT.setText(Integer.toString(Node.nodeCreated));
                 endTime = 0;
