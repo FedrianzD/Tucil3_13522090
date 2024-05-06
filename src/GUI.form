@@ -5,8 +5,10 @@
     <constraints>
       <xy x="82" y="40" width="584" height="601"/>
     </constraints>
-    <properties/>
-    <border type="etched"/>
+    <properties>
+      <preferredSize width="600" height="464"/>
+    </properties>
+    <border type="none"/>
     <children>
       <component id="41882" class="javax.swing.JLabel" binding="label1">
         <constraints>
