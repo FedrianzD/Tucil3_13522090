@@ -27,7 +27,6 @@ public class GBFS {
         
         while(!pq.isEmpty()){
             Node currNode = pq.poll();
-            pq.clear();
             List<String> possibleString;
             Node.nodeVisited++;
             if(currNode.getString().equals(end)){
