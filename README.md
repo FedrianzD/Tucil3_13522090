@@ -37,7 +37,7 @@ Fitur yang tersedia
 
 ## Usage
 - Clone repository `git clone https://github.com/FedrianzD/Tucil3_13522090.git`.
-- Masuk ke dalam folder  `Tucil3_13522090`.
+- Masuk ke dalam folder `Tucil3_13522090` dan buka terminal pada folder tersebut.
 - Jika ingin menggunakan `dict.txt` sendiri, masukkan file txt ke dalam `src/sourceDict/` lalu jalankan `java -jar Divider.jar` pada terminal.
 - Jalankan `java -jar CLI.jar` pada terminal untuk menjalankan program.
 - Jalankan `java -jar GUI.jar` pada terminal untuk menjalankan program dengan GUI.
