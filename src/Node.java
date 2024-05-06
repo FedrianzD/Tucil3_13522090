@@ -76,7 +76,10 @@ class NodeComparator implements Comparator<Node>{
         } else if (n1.getFn() > n2.getFn()){
             return 1;
         } else{
-            return 0;
+            String word1 = n1.getString();
+            String word2 = n2.getString();
+            return word1.compareTo(word2);
         }
     }
 }
+
