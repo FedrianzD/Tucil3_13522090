@@ -30,14 +30,14 @@ public class GBFS {
             pq.clear();
             Node.nodeChecked++;
             List<String> possibleString;
-            if(!visited.containsKey(currNode.getString())){
-                Node.nodeExpanded++;
-                if(currNode.getString().equals(end)){
-                    return currNode.pathToRoot();
-                }
-                possibleString = currNode.getExpandNode(DictReader.englishDictionary);
-                visited.put(currNode.getString(), true);
-                for(String s : possibleString){
+            Node.nodeExpanded++;
+            if(currNode.getString().equals(end)){
+                return currNode.pathToRoot();
+            }
+            possibleString = currNode.getExpandNode(DictReader.englishDictionary);
+            visited.put(currNode.getString(), true);
+            for(String s : possibleString){
+                if(!visited.containsKey(s)){
                     Node newNode = new Node(s, GBFS_GN, UtilityFunc.getDifference(s, end), currNode);
                     pq.add(newNode);
                 }
