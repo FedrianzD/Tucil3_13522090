@@ -50,6 +50,8 @@
         </constraints>
         <properties>
           <font name="Arial" size="20" style="1"/>
+          <text value=""/>
+          <toolTipText value="end"/>
         </properties>
       </component>
       <component id="ce3d6" class="javax.swing.JLabel">
@@ -69,6 +71,8 @@
         </constraints>
         <properties>
           <font name="Arial" size="20" style="1"/>
+          <text value=""/>
+          <toolTipText value="start"/>
         </properties>
       </component>
       <component id="4b7b7" class="javax.swing.JButton" binding="submitButton" default-binding="true">

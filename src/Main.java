@@ -10,6 +10,9 @@ public class Main {
         long before = 0;
         long after = 0;
         List<String> l = UtilityFunc.readInputStartEnd();
+        while (l == null){
+            l = UtilityFunc.readInputStartEnd();
+        }
         String startword = l.get(0);
         String endword = l.get(1);
         int wordLength = startword.length();
@@ -18,6 +21,9 @@ public class Main {
         
         while(DictReader.englishDictionary == null){
             l = UtilityFunc.readInputStartEnd();
+            while (l == null){
+                l = UtilityFunc.readInputStartEnd();
+            }
             startword = l.get(0);
             endword = l.get(1);
             wordLength = startword.length();
