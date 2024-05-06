@@ -31,9 +31,8 @@ Fitur yang tersedia
 - GUI 
 
 
-## Setup
+## Requirement
 - Install Java version 20 or higher
-- 
 
 
 ## Usage
@@ -42,6 +41,7 @@ Fitur yang tersedia
 - Jika ingin menggunakan `dict.txt` sendiri, masukkan file txt ke dalam `src/sourceDict/` lalu jalankan `java -jar Divider.jar` pada terminal.
 - Jalankan `java -jar CLI.jar` pada terminal untuk menjalankan program.
 - Jalankan `java -jar GUI.jar` pada terminal untuk menjalankan program dengan GUI.
+- Masukkan start word dan end word lalu jalankan, hasil akan muncul setelah beberapa saat.
 
 
 ## Project Status
