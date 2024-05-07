@@ -32,7 +32,7 @@ Fitur yang tersedia
 
 
 ## Requirement
-- Install Java version 20 or higher
+- Install Java version 20 or higher from https://www.oracle.com/id/java/technologies/downloads/
 
 
 ## Usage
