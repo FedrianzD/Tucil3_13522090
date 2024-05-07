@@ -42,6 +42,10 @@ Fitur yang tersedia
 - Jalankan `java -jar CLI.jar` pada terminal untuk menjalankan program.
 - Jalankan `java -jar GUI.jar` pada terminal untuk menjalankan program dengan GUI.
 - Masukkan start word dan end word lalu jalankan, hasil akan muncul setelah beberapa saat.
+- Jika tidak bisa menggunakan jar `cd bin/production/Tucil3_13522090`
+- Lalu masukkan `java src/Main` untuk program berbasis CLI
+- atau `java src/GUI` untuk program dengan GUI
+- atau `java src/DictReader` untuk membagi file kamus menjadi beberapa bagian berdasarkan jumlah huruf
 
 
 ## Project Status
